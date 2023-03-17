@@ -29,7 +29,7 @@ import Img from '../assets/Calculator.gif'
                                         A blend of vue's finest concepts.
                                     </h1>
                                     <h1 class="text-3xl md:text-4xl font-extrabold">
-                                        A <span>counter</span>, original and simple.
+                                        A <span class="text-4xl">counter</span>, original and simple.
                                     </h1>
                                 </div>
                                 <p class="text-light">
