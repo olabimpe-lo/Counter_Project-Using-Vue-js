@@ -11,7 +11,7 @@ import Img from '../assets/Calculator.gif'
 
         <div class="w-full mt=5 md:mt-8 py-10 md:py-4 h-auto m">
             <nav class="mt-1 flex justify-between items-center">
-                <h2 class="font-extrabold text-3xl "> counter app </h2>
+                <h2 class="font-extrabold text-4xl "> counter app </h2>
                 <RouterLink to="/counter">
                     <button class="text-2xl font-extrabold hidden md:block text-white p-3 rounded h-auto w-auto">
                         counter
@@ -25,20 +25,16 @@ import Img from '../assets/Calculator.gif'
                         <div class="flex-vertical  h-full ">
                             <header class="flex-vertical bg-white/70  gap-5 w-10/12">
                                 <div>
-                                    <h1 class="text-4xl md:text-4xl font-extrabold">
+                                    <h1 class="text-3xl md:text-4xl font-extrabold">
                                         A blend of vue's finest concepts.
                                     </h1>
-                                    <h1 class="text-3xl md:text-4xl font-extrabold">
-                                        A <span class="text-4xl">counter</span>, original and simple.
+                                    <h1 class="text-2xl md:text-4xl font-extrabold">
+                                        A <span class="text-2xl">counter</span>, original and simple.
                                     </h1>
                                 </div>
                                 <p class="text-light">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem aliquid ipsam,
-                                    fugit nemo temporibus voluptate!
-                                </p>
-                                <p class="text-light">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem aliquid ipsam,
-                                    fugit nemo temporibus voluptate!
+                                   A counter is initialised with a numeric value and it increases 
+                                   by 1 as the process is repeated.
                                 </p>
                                 <RouterLink to="/counter">
                                     <button class="text-2xl font-extrabold text-white p-3 rounded h-auto w-auto">
